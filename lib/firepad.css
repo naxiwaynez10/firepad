@@ -235,12 +235,35 @@ a.firepad-btn:active {
 .firepad-dialog-div {
   position: relative;
   width: 400px;
-  height: 100px;
+  height: auto;
   margin: 100px auto;
   background-color: #fff;
   border: 1px solid #000;
   padding: 15px;
 }
+
+/** Custom Graph dialog */
+.evalDiv {
+  display: flex;
+  justify-content: center;
+}
+#evaluateBtn {
+  margin-top: 40px;
+}
+.firepad-dialog-div-graph {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 100px auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+#graphImg_ , #graphImg__{
+  display: none;
+}
+/* End */
 
 .firepad-dialog-input {
   width: 80%;

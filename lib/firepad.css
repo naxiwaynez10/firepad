@@ -31,7 +31,7 @@
   height: 82px;
   line-height: 82px;
   padding-left: 10px;
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid #0f0e0e;
 
   /* Don't select text when double-clicking in toolbar */
   -webkit-touch-callout: none;
@@ -128,7 +128,7 @@ a.firepad-btn, a.firepad-btn:visited, a.firepad-btn:active {
   background-color: #fcfcfc;
   border: 1px solid #c9c9c9;
   border-bottom-width: 4px;
-  color: #9c9c9c;
+  /* color: #9c9c9c; */
 }
 
 a.firepad-btn:hover {
@@ -369,6 +369,12 @@ a.firepad-btn:active {
 }
 .firepad-tb-insert-image:before {
   content: "\e015";
+}
+.firepad-tb-solve-graph:before {
+  content: "\2A10";
+}
+.firepad-tb-insert-graph:before {
+  content: "\1F4CA";
 }
 .firepad-tb-bubble:before {
   content: "\e00f";

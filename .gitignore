@@ -10,7 +10,7 @@ node_modules
 # generated
 lib/ace-adapter.js
 dist/firepad.zip
-dist/
+# dist/
 
 *.log
 _site/

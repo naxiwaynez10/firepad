@@ -263,6 +263,15 @@ a.firepad-btn:active {
 #graphImg_ , #graphImg__{
   display: none;
 }
+#ul {
+  overflow-y: auto;
+  max-height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#drop-ul {
+  list-style: none;
+}
 /* End */
 
 .firepad-dialog-input {
